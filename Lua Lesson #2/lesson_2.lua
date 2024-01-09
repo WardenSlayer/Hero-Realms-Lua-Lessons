@@ -19,7 +19,7 @@ function setupGame(g)
 	})
 
     standardSetup(g, {
-        description = "Lesson #2: Custom Action Cards Data<br>Created by WardenSlayer.",
+        description = "Lesson #2: Custom Action Cards<br>Created by WardenSlayer.",
         playerOrder = { plid1, plid2 },
         ai = ai.CreateKillSwitchAi(createAggressiveAI(),  createHardAi2()),
         timeoutAi = createTimeoutAi(),
